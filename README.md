@@ -12,14 +12,8 @@ Statische Landing Page der Keine AG (Nico & Juul). Bewusst minimal gehalten:
 | `impressum.html` | Impressum (CH, Art. 3 Abs. 1 lit. s UWG) |
 | `datenschutz.html` | Datenschutzerklärung (revDSG / DSGVO) |
 | `styles.css` | Gesamtes Styling, nur Systemschriften |
-| `assets/logo.png` | Logo (siehe unten) |
+| `assets/logo.svg` | Original-Logo (Vektor, alle Schriften als Pfade) |
 | `.github/workflows/deploy-staging.yml` | Staging-Deployment auf GitHub Pages |
-
-## Logo ersetzen
-
-`assets/logo.png` ist eine **Nachbildung** des Original-Logos (der
-Chat-Anhang konnte nicht als Datei übernommen werden). Original-PNG einfach
-als `assets/logo.png` einchecken – sonst ist nichts anzupassen.
 
 ## Offene Platzhalter
 
@@ -42,7 +36,9 @@ Handelsregisters, UID-Nummer.
 
 ## Staging
 
-Jeder Push auf `claude/eu-ch-landing-page-9kl8tz` oder `main` deployt die
-Seite über GitHub Actions auf GitHub Pages (Workflow
-`deploy-staging.yml`). Hinweis: Die Pages-URL ist öffentlich erreichbar,
-auch wenn das Repository privat ist.
+Das Deployment auf GitHub Pages läuft über den Workflow
+`deploy-staging.yml` (Actions → «Deploy staging (GitHub Pages)» →
+Run workflow). Voraussetzung: GitHub Pages muss einmalig aktiviert werden
+(Settings → Pages → Source: «GitHub Actions»); bei privaten Repositories
+setzt Pages einen bezahlten GitHub-Plan voraus. Hinweis: Die Pages-URL ist
+öffentlich erreichbar, auch wenn das Repository privat ist.
