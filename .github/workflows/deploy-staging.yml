@@ -4,6 +4,7 @@ name: Deploy staging (GitHub Pages)
 on:
   push:
     branches:
+      - main
       - claude/eu-ch-landing-page-9kl8tz
   workflow_dispatch:
 
