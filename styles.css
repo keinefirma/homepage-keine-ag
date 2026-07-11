@@ -95,8 +95,6 @@ a:focus-visible, .button:focus-visible {
 
 .footer-nav { display: flex; justify-content: center; gap: 0.6rem; margin-bottom: 0.5rem; }
 
-.footer-note { font-size: 0.8rem; }
-
 /* Legal pages */
 .legal {
   width: 100%;

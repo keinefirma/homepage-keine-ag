@@ -35,11 +35,9 @@ Statische Landing Page der Keine AG (Nico & Juul). Bewusst minimal gehalten:
   `X-Content-Type-Options: nosniff`, `Referrer-Policy: no-referrer`,
   `Strict-Transport-Security`.
 
-## Staging
+## Deployment
 
-Das Deployment auf GitHub Pages läuft über den Workflow
-`deploy-staging.yml` (Actions → «Deploy staging (GitHub Pages)» →
-Run workflow). Voraussetzung: GitHub Pages muss einmalig aktiviert werden
-(Settings → Pages → Source: «GitHub Actions»); bei privaten Repositories
-setzt Pages einen bezahlten GitHub-Plan voraus. Hinweis: Die Pages-URL ist
-öffentlich erreichbar, auch wenn das Repository privat ist.
+Live unter https://keinefirma.github.io/homepage-keine-ag/. Jeder Push auf
+`claude/eu-ch-landing-page-9kl8tz` deployt die Seite automatisch über den
+Workflow `deploy-staging.yml`; er lässt sich zusätzlich manuell starten
+(Actions → «Deploy staging (GitHub Pages)» → Run workflow).

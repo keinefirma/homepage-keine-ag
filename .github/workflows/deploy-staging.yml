@@ -1,9 +1,10 @@
 name: Deploy staging (GitHub Pages)
 
-# Manual trigger only: GitHub Pages is not yet enabled on this repository, so
-# automatic runs on push would fail and spam failure notifications. Once Pages
-# is enabled (Settings → Pages → Source: GitHub Actions), re-add a push trigger.
+# Auto-deploy on every push to the site branch; also runnable manually.
 on:
+  push:
+    branches:
+      - claude/eu-ch-landing-page-9kl8tz
   workflow_dispatch:
 
 permissions:
