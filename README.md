@@ -15,11 +15,12 @@ Statische Landing Page der Keine AG (Nico & Juul). Bewusst minimal gehalten:
 | `assets/logo.svg` | Original-Logo (Vektor, alle Schriften als Pfade) |
 | `.github/workflows/deploy-staging.yml` | Staging-Deployment auf GitHub Pages |
 
-## Offene Platzhalter
+## Offene Punkte
 
-In `impressum.html` und `datenschutz.html` sind gelb hinterlegte
-`[Platzhalter]` zu ergänzen: Adresse, Nachnamen, Kanton des
-Handelsregisters, UID-Nummer.
+- Handelsregister-Eintrag (Kanton, UID) ist im Impressum vorerst
+  ausgelassen und kann bei Bedarf ergänzt werden.
+- Bei den Vertretungsberechtigten sind noch keine Namen genannt; aktuell
+  wird auf die E‑Mail-Adresse verwiesen.
 
 ## Sicherheit
 
