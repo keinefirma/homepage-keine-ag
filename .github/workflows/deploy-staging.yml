@@ -1,11 +1,10 @@
 name: Deploy staging (GitHub Pages)
 
-# Auto-deploy on every push to the site branch; also runnable manually.
+# Auto-deploy on every push to main; also runnable manually.
 on:
   push:
     branches:
       - main
-      - claude/eu-ch-landing-page-9kl8tz
   workflow_dispatch:
 
 permissions:
